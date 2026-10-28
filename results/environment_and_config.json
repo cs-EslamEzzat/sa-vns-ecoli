@@ -1,0 +1,51 @@
+{
+  "environment": {
+    "python": "3.13.1",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+    "numpy": "2.4.3",
+    "pandas": "3.0.1",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.8",
+    "torch": "2.6.0+cu124"
+  },
+  "config": {
+    "seed": 42,
+    "n_splits": 10,
+    "test_size": 0.2,
+    "n_repeats": 5,
+    "l2_lambda": 0.0001,
+    "init_noise": 0.2,
+    "sa_T0": 0.01,
+    "sa_alpha": 0.995,
+    "sa_sigma": 0.05,
+    "sa_iters_hybrid": 1000,
+    "sa_iters_alone": 1500,
+    "vns_kmax": 5,
+    "vns_sigma": 0.15,
+    "vns_iters_hybrid": 500,
+    "vns_iters_alone": 600,
+    "tune": true,
+    "tune_T0_grid": [
+      0.005,
+      0.01,
+      0.02
+    ],
+    "tune_alpha_grid": [
+      0.99,
+      0.995,
+      0.998
+    ],
+    "tune_inner_folds": 3,
+    "dl_epochs": 100,
+    "dl_batch": 32,
+    "dl_lr": 0.001,
+    "dl_patience": 10,
+    "dl_val_frac": 0.1,
+    "out_dir": "results"
+  },
+  "n_train": 268,
+  "n_test": 68,
+  "total_runtime_s": 193.83832979999715
+}

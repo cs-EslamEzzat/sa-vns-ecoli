@@ -1,0 +1,15 @@
+proteins: 336 | features: 7 | classes: 8
+label encoding: {'cp': 0, 'im': 1, 'imL': 2, 'imS': 3, 'imU': 4, 'om': 5, 'omL': 6, 'pp': 7}
+class counts: {'cp': 143, 'im': 77, 'pp': 52, 'imU': 35, 'om': 20, 'omL': 5, 'imS': 2, 'imL': 2}
+missing values: 0
+unique sequence identifiers: 336 / 336
+rows duplicating an earlier 7-feature vector: 0
+
+      count     mean      std   min   25%    50%     75%   max
+mcg   336.0  0.50006  0.19463  0.00  0.34  0.500  0.6625  0.89
+gvh   336.0  0.50000  0.14816  0.16  0.40  0.470  0.5700  1.00
+lip   336.0  0.49548  0.08850  0.48  0.48  0.480  0.4800  1.00
+chg   336.0  0.50149  0.02728  0.50  0.50  0.500  0.5000  1.00
+aac   336.0  0.50003  0.12238  0.00  0.42  0.495  0.5700  0.88
+alm1  336.0  0.50018  0.21575  0.03  0.33  0.455  0.7100  1.00
+alm2  336.0  0.49973  0.20941  0.00  0.35  0.430  0.7100  0.99
